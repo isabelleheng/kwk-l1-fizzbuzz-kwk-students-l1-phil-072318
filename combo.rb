@@ -8,9 +8,6 @@ if int %3 == 0
 elsif int %5 == 0
 return "buzz"
 
-elsif int %5 == 0 && %3 == 0 
-return "fizzbuzz"
-
 else 
   return "nil"
 end 
