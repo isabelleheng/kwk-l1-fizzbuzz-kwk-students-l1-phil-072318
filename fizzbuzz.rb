@@ -14,19 +14,3 @@ return "fizzbuzz"
 else 
   return "nil"
 end 
-
-puts "What is your number"
-  number = gets.chomp.to_i
-
-if #{number} is divisible by 3
-  puts "fizz"
-  
-elsif #{number} is divisible by 5 
-puts "buzz"
-
-elsif #{number} is divisible by 3 && 5 
-puts "fizzbuzz"
-
-else 
-  puts "nil"
-end
